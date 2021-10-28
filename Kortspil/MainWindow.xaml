@@ -1,0 +1,16 @@
+﻿<Window x:Class="Kortspil.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kortspil"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid Height="600" VerticalAlignment="Top">
+        <Label Content="Indtast nummeret på det kort, du vil se" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Kort" HorizontalAlignment="Left" Margin="300,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" InputScope="Number"/>
+        <Button Content="Vis" HorizontalAlignment="Left" Margin="498,10,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Image x:Name="Billede" Source="/Billeder/purple_back.jpg" HorizontalAlignment="Left" Height="1056" Margin="123,80,0,0" VerticalAlignment="Top" Width="300"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,247 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Billeder\10-Hjerter.jpg" />
+    <None Remove="Billeder\10-Klør.jpg" />
+    <None Remove="Billeder\10-Ruder.jpg" />
+    <None Remove="Billeder\10-Spar.jpg" />
+    <None Remove="Billeder\2-Hjerter.jpg" />
+    <None Remove="Billeder\2-Klør.jpg" />
+    <None Remove="Billeder\2-Ruder.jpg" />
+    <None Remove="Billeder\2-Spar.jpg" />
+    <None Remove="Billeder\3-Hjerter.jpg" />
+    <None Remove="Billeder\3-Klør.jpg" />
+    <None Remove="Billeder\3-Ruder.jpg" />
+    <None Remove="Billeder\3-Spar.jpg" />
+    <None Remove="Billeder\4-Hjerter.jpg" />
+    <None Remove="Billeder\4-Klør.jpg" />
+    <None Remove="Billeder\4-Ruder.jpg" />
+    <None Remove="Billeder\4-Spar.jpg" />
+    <None Remove="Billeder\5-Hjerter.jpg" />
+    <None Remove="Billeder\5-Klør.jpg" />
+    <None Remove="Billeder\5-Ruder.jpg" />
+    <None Remove="Billeder\5-Spar.jpg" />
+    <None Remove="Billeder\6-Hjerter.jpg" />
+    <None Remove="Billeder\6-Klør.jpg" />
+    <None Remove="Billeder\6-Ruder.jpg" />
+    <None Remove="Billeder\6-Spar.jpg" />
+    <None Remove="Billeder\7-Hjerter.jpg" />
+    <None Remove="Billeder\7-Klør.jpg" />
+    <None Remove="Billeder\7-Ruder.jpg" />
+    <None Remove="Billeder\7-Spar.jpg" />
+    <None Remove="Billeder\8-Hjerter.jpg" />
+    <None Remove="Billeder\8-Klør.jpg" />
+    <None Remove="Billeder\8-Ruder.jpg" />
+    <None Remove="Billeder\8-Spar.jpg" />
+    <None Remove="Billeder\9-Hjerter.jpg" />
+    <None Remove="Billeder\9-Klør.jpg" />
+    <None Remove="Billeder\9-Ruder.jpg" />
+    <None Remove="Billeder\9-Spar.jpg" />
+    <None Remove="Billeder\blue_back.jpg" />
+    <None Remove="Billeder\Dame-Hjerter.jpg" />
+    <None Remove="Billeder\Dame-Klør.jpg" />
+    <None Remove="Billeder\Dame-Ruder.jpg" />
+    <None Remove="Billeder\Dame-spar.jpg" />
+    <None Remove="Billeder\Es-Hjerter.jpg" />
+    <None Remove="Billeder\Es-Klør.jpg" />
+    <None Remove="Billeder\Es-Ruder.jpg" />
+    <None Remove="Billeder\Es-Spar.jpg" />
+    <None Remove="Billeder\Green_back.jpg" />
+    <None Remove="Billeder\Knægt-Hjerter.jpg" />
+    <None Remove="Billeder\Knægt-Klør.jpg" />
+    <None Remove="Billeder\Knægt-Ruder.jpg" />
+    <None Remove="Billeder\Knægt-Spar.jpg" />
+    <None Remove="Billeder\Konge-Hjerter.jpg" />
+    <None Remove="Billeder\Konge-Klør.jpg" />
+    <None Remove="Billeder\Konge-Ruder.jpg" />
+    <None Remove="Billeder\Konge-Spar.jpg" />
+    <None Remove="Billeder\purple_back.jpg" />
+    <None Remove="Billeder\Red_back.jpg" />
+    <None Remove="Billeder\Yellow_back.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Billeder\10-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\10-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\10-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\10-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\2-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\2-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\2-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\2-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\3-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\3-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\3-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\3-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\4-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\4-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\4-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\4-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\5-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\5-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\5-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\5-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\6-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\6-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\6-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\6-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\7-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\7-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\7-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\7-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\8-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\8-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\8-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\8-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\9-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\9-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\9-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\9-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\blue_back.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Dame-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Dame-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Dame-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Dame-spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Es-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Es-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Es-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Es-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Green_back.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Knægt-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Knægt-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Knægt-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Knægt-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Konge-Hjerter.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Konge-Klør.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Konge-Ruder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Konge-Spar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\purple_back.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Red_back.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Billeder\Yellow_back.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
